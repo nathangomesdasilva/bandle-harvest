@@ -41,6 +41,9 @@ label = "Bandle Harvest"
 
 [package.metadata.android.activity_attributes]
 "android:screenOrientation" = "landscape"
+[package.metadata.android.signing.release]
+path = "release.keystore"
+keystore_password = "bandleharvest"
 
 [profile.dev]
 opt-level = 1
