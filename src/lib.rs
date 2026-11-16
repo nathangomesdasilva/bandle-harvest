@@ -209,7 +209,7 @@ fn setup(mut commands: Commands) {
     // Botão Touch: Interagir (E)
     commands
         .spawn((
-            Button::default(),
+            Interaction::default(),
             Node {
                 position_type: PositionType::Absolute,
                 bottom: px(20),
@@ -234,7 +234,7 @@ fn setup(mut commands: Commands) {
     // Botão Touch: Dormir (N)
     commands
         .spawn((
-            Button::default(),
+            Interaction::default(),
             Node {
                 position_type: PositionType::Absolute,
                 bottom: px(20),
